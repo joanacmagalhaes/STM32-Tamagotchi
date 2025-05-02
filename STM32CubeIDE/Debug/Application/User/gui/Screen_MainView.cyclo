@@ -1,0 +1,17 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:52:6:virtual void Screen_MainView::tearDownScreen()	1
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:310:6:virtual void Screen_MainView::next_clothes()	2
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:329:6:virtual void Screen_MainView::clothes_prev()	2
+../../TouchGFX/gui/include/gui/screen_main_screen/Screen_MainView.hpp:11:13:Screen_MainView::~Screen_MainView()	1
+../../TouchGFX/gui/include/gui/screen_main_screen/Screen_MainView.hpp:11:13:virtual Screen_MainView::~Screen_MainView()	1
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:4:1:Screen_MainView::Screen_MainView()	1
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:135:6:void Screen_MainView::animationJumping()	4
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:16:6:virtual void Screen_MainView::setupScreen()	1
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:102:6:void Screen_MainView::decFoodMeter()	4
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:85:6:void Screen_MainView::showPoop()	2
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:117:6:void Screen_MainView::animationSmile2()	2
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:155:6:void Screen_MainView::animationEating()	25
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:291:6:void Screen_MainView::animationFaceNeutral()	2
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:95:6:void Screen_MainView::animationFaceDead()	1
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_main_screen/Screen_MainView.cpp:57:6:virtual void Screen_MainView::handleTickEvent()	12

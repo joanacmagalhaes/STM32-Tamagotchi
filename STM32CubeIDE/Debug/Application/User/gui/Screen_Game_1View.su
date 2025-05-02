@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_game_1_screen/Screen_Game_1View.cpp:27:6:virtual void Screen_Game_1View::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/screen_game_1_screen/Screen_Game_1View.hpp:11:13:Screen_Game_1View::~Screen_Game_1View()	8	static
+../../TouchGFX/gui/include/gui/screen_game_1_screen/Screen_Game_1View.hpp:11:13:virtual Screen_Game_1View::~Screen_Game_1View()	8	static
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_game_1_screen/Screen_Game_1View.cpp:8:1:Screen_Game_1View::Screen_Game_1View()	8	static
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_game_1_screen/Screen_Game_1View.cpp:21:6:virtual void Screen_Game_1View::setupScreen()	8	static
+C:/TouchGFXProjects/Teste_pixel/TouchGFX/gui/src/screen_game_1_screen/Screen_Game_1View.cpp:32:6:virtual void Screen_Game_1View::handleTickEvent()	24	static

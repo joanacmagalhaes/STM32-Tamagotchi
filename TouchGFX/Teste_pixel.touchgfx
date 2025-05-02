@@ -1,0 +1,1187 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen_Game_3",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\clay_theme_images_backgrounds_480x272_gradient_light.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 79,
+            "Y": 123,
+            "Width": 323,
+            "Height": 27,
+            "TextId": "__SingleUse_W2NO",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_exitGame",
+            "X": 19,
+            "Y": 201,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_ios_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_exitGame"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen_Game_2",
+        "Components": [
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_exitGame",
+            "X": 19,
+            "Y": 201,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_ios_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_exitGame"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen_Game_1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "RelativeFilename": "background-image.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_smile",
+            "X": 79,
+            "Y": 29,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_smile"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_sad",
+            "X": 79,
+            "Y": 59,
+            "Width": 323,
+            "Height": 155,
+            "CustomContainerDefinitionName": "face_sad"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_neutral",
+            "X": 72,
+            "Y": 36,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_neutral"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_smile_2",
+            "X": 72,
+            "Y": 36,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_smile_2"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_exitGame",
+            "X": 19,
+            "Y": 201,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_ios_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "iceCube",
+            "X": 117,
+            "Y": -42,
+            "Width": 307,
+            "Height": 297,
+            "Filename": "copia-cubo-gelo.png",
+            "Alpha": 185,
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "progress_iceMelting",
+            "X": 121,
+            "Y": 247,
+            "Width": 300,
+            "Height": 10,
+            "Color": {
+              "Green": 240,
+              "Blue": 255
+            },
+            "Direction": "Right",
+            "Preset": "alternate_theme\\presets\\boxprogress\\normal\\medium_active.json",
+            "FileNameBackground": "__generated\\alternate_theme_images_widgets_boxprogress_normal_medium.png",
+            "IndicatorPositionWidth": 300,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 100
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_exitGame"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_Main"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen_Main",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\clay_theme_images_backgrounds_480x272_gradient_light.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_smile",
+            "X": 79,
+            "Y": 29,
+            "Width": 323,
+            "Height": 155,
+            "CustomContainerDefinitionName": "face_smile"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_neutral",
+            "X": 72,
+            "Y": 36,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_neutral"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_smile_2",
+            "X": 72,
+            "Y": 36,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_smile_2"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_sad",
+            "X": 72,
+            "Y": 36,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_sad"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_menu_main",
+            "X": 91,
+            "Y": 184,
+            "Width": 298,
+            "Height": 81,
+            "CustomContainerDefinitionName": "menu_main"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_menu_games",
+            "X": 73,
+            "Y": 191,
+            "Width": 335,
+            "Height": 81,
+            "Visible": false,
+            "CustomContainerDefinitionName": "menu_games"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_clothes_prev",
+            "X": 78,
+            "Y": 106,
+            "Width": 36,
+            "Height": 36,
+            "Visible": false,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_50_50_E8F6FB.svg.png",
+            "IconX": -7,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_clothes_next",
+            "X": 366,
+            "Y": 100,
+            "Width": 36,
+            "Height": 36,
+            "Visible": false,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_forward_50_50_E8F6FB.svg.png",
+            "IconX": -7,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\micro_fill_normal.json"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_menu_clothes",
+            "X": 91,
+            "Y": 191,
+            "Width": 298,
+            "Height": 81,
+            "Visible": false,
+            "CustomContainerDefinitionName": "menu_clothes"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_eating_1",
+            "X": 79,
+            "Y": 42,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_eating_1"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_eating_2",
+            "X": 79,
+            "Y": 29,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_eating_2"
+          },
+          {
+            "Type": "Image",
+            "Name": "heart_sunglasses",
+            "X": 176,
+            "Y": 62,
+            "Width": 128,
+            "Height": 64,
+            "Visible": false,
+            "RelativeFilename": "heart_sunglasses.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_eating_3",
+            "X": 79,
+            "Y": 43,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_eating_3"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_menu_food",
+            "X": 73,
+            "Y": 191,
+            "Width": 335,
+            "Height": 81,
+            "Visible": false,
+            "CustomContainerDefinitionName": "menu_food"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "cupcake",
+            "X": 203,
+            "Y": 113,
+            "Width": 74,
+            "Height": 67,
+            "Visible": false,
+            "Filename": "cupcake.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Image",
+            "Name": "bunny_hat",
+            "X": 176,
+            "Width": 128,
+            "Height": 64,
+            "Visible": false,
+            "RelativeFilename": "chapeu-coelho.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "apple_hat",
+            "X": 182,
+            "Y": 9,
+            "Width": 128,
+            "Height": 64,
+            "Visible": false,
+            "RelativeFilename": "apple_hat.png"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "astronaut_hat",
+            "X": 124,
+            "Y": 28,
+            "Width": 240,
+            "Height": 156,
+            "Visible": false,
+            "Filename": "space_helmet.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "pizza",
+            "X": 197,
+            "Y": 106,
+            "Width": 80,
+            "Height": 80,
+            "Visible": false,
+            "Filename": "pizza.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Image",
+            "Name": "juice",
+            "X": 216,
+            "Y": 126,
+            "Width": 48,
+            "Height": 48,
+            "Visible": false,
+            "RelativeFilename": "juice.png"
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "foodBar",
+            "X": 29,
+            "Y": 19,
+            "Width": 100,
+            "Height": 10,
+            "Color": {
+              "Red": 39,
+              "Green": 41,
+              "Blue": 44
+            },
+            "Direction": "Right",
+            "Preset": "dark_theme\\presets\\boxprogress\\normal\\tiny_dark.json",
+            "FileNameBackground": "__generated\\dark_theme_images_widgets_boxprogress_normal_tiny.png",
+            "IndicatorPositionWidth": 100,
+            "IndicatorPositionHeight": 10,
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "foodIcon",
+            "X": 8,
+            "Y": 12,
+            "Width": 17,
+            "Height": 19,
+            "LockPosition": true,
+            "Filename": "__generated\\icon_theme_images_maps_fastfood_50_50_000000.svg.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_face_dead",
+            "X": 79,
+            "Y": 29,
+            "Width": 323,
+            "Height": 155,
+            "Visible": false,
+            "CustomContainerDefinitionName": "face_dead"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "container_poop",
+            "X": 230,
+            "Y": 24,
+            "Width": 250,
+            "Height": 250,
+            "Visible": false,
+            "CustomContainerDefinitionName": "poop"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_clothes_next"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "next_clothes"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_clothes_prev"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "clothes_prev"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 30
+            },
+            "Action": {
+              "Type": "ActionUpdateValue",
+              "Value": 50,
+              "ActionComponent": "foodBar"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "face_eating_3",
+        "X": 79,
+        "Y": 59,
+        "Width": 323,
+        "Height": 155,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "face",
+            "X": 17,
+            "Width": 288,
+            "Height": 155,
+            "RelativeFilename": "eating-face-3.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "face_eating_2",
+        "X": 79,
+        "Y": 59,
+        "Width": 323,
+        "Height": 155,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "face",
+            "X": 17,
+            "Width": 288,
+            "Height": 155,
+            "RelativeFilename": "eating-face-2.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "face_eating_1",
+        "X": 79,
+        "Y": 59,
+        "Width": 323,
+        "Height": 155,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "face",
+            "X": 17,
+            "Width": 288,
+            "Height": 155,
+            "RelativeFilename": "eating-face-1.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "face_sad",
+        "X": 79,
+        "Y": 59,
+        "Width": 323,
+        "Height": 155,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "face",
+            "X": 17,
+            "Width": 288,
+            "Height": 155,
+            "RelativeFilename": "face-sad.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "face_neutral",
+        "X": 79,
+        "Y": 59,
+        "Width": 323,
+        "Height": 155,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "face",
+            "X": 17,
+            "Width": 288,
+            "Height": 155,
+            "RelativeFilename": "face-neutral.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "face_smile_2",
+        "X": 79,
+        "Y": 59,
+        "Width": 323,
+        "Height": 155,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "face",
+            "X": 17,
+            "Width": 288,
+            "Height": 155,
+            "RelativeFilename": "face-smile-2.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "face_dead",
+        "X": 79,
+        "Y": 59,
+        "Width": 323,
+        "Height": 155,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "face",
+            "X": 17,
+            "Width": 288,
+            "Height": 155,
+            "RelativeFilename": "dead_face1.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "face_smile",
+        "X": 79,
+        "Y": 59,
+        "Width": 323,
+        "Height": 155,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "face",
+            "X": 17,
+            "Width": 288,
+            "Height": 155,
+            "RelativeFilename": "face-smile.png"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "menu_food",
+        "X": 73,
+        "Y": 96,
+        "Width": 335,
+        "Height": 81,
+        "Components": [
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_backMenu",
+            "X": 14,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_ios_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_food3",
+            "X": 246,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_social_cake_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_food2",
+            "X": 172,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_maps_fastfood_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_food1",
+            "X": 97,
+            "Y": 11,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_places_free_breakfast_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_backMenu"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "backMenu"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_food1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "eating_animation_button1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_food2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "eating_animation_button2"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_food3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "eating_animation_button3"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "menu_games",
+        "X": 73,
+        "Y": 96,
+        "Width": 335,
+        "Height": 81,
+        "Components": [
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_3game",
+            "X": 246,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_image_filter_3_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_backMenu",
+            "X": 14,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_ios_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_2game",
+            "X": 172,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_image_filter_2_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_1game",
+            "X": 97,
+            "Y": 11,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_image_filter_1_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_backMenu"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "backMenu"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_1game"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen_Game_1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_2game"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "runGame2"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_3game"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen_Game_3"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "menu_clothes",
+        "X": 91,
+        "Y": 96,
+        "Width": 298,
+        "Height": 81,
+        "Components": [
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_cancel",
+            "X": 162,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_close_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_confirm",
+            "X": 72,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_check_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_cancel"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "clothes_cancel"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_confirm"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "clothes_confirm"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "menu_main",
+        "X": 91,
+        "Y": 96,
+        "Width": 298,
+        "Height": 81,
+        "Components": [
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_game",
+            "X": 194,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_hardware_videogame_asset_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_food",
+            "X": 120,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_maps_fastfood_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "button_clothes",
+            "X": 45,
+            "Y": 10,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_tiny_fill_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_maps_dry_cleaning_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\tiny_fill_disabled.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_game"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "goGameMenu"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_clothes"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonClothes"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_food"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonFood"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "poop",
+        "X": 107,
+        "Y": 22,
+        "Width": 250,
+        "Height": 250,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "poopImage",
+            "X": 102,
+            "Y": 108,
+            "Width": 47,
+            "Height": 52,
+            "Filename": "poop2.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Button",
+            "Name": "poopButton",
+            "X": 95,
+            "Y": 104,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_outline_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_outline_normal.png",
+            "Alpha": 0,
+            "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\tiny_outline_normal.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "poopButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "poopClicked"
+            }
+          }
+        ]
+      }
+    ],
+    "Name": "Teste_pixel",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen_Main",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}
